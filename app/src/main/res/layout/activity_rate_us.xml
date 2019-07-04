@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"/>
+
+    <View
+        android:background="@color/view_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/tvSatisfiedItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/are_you_satisfied_with_app"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/text_size_16"/>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rgSatisfiedUnsatisfied"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <RadioButton
+            android:id="@+id/rbSatisfied"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/satisfied"
+            android:checked="true"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:padding="@dimen/dp_5"
+            android:button="@drawable/radiogroup_drawable" />
+
+
+
+        <RadioButton
+            android:id="@+id/rbUnsatisfied"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/unsatisfied"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:padding="@dimen/dp_5"
+            android:button="@drawable/radiogroup_drawable" />
+
+
+
+    </RadioGroup>
+
+
+    <View
+        android:background="@color/view_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvRateItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rate_app"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/dp_30"
+            android:textSize="@dimen/text_size_14"/>
+
+
+
+        <RatingBar
+            android:id="@+id/rbSatisfaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.1"
+            android:rating="1"
+            android:theme="@style/Rateus"
+            android:layout_marginTop="@dimen/dp_10"/>
+
+
+        <TextView
+            android:id="@+id/tvSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_add_box"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_14"
+            android:paddingTop="@dimen/dp_10"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_50"
+            android:layout_marginRight="@dimen/dp_50"
+            android:text="@string/submit"
+            android:textColor="@color/yellow" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/button_color"
+    local:theme="@style/ThemeOverlay.AppCompat.Light"
+    local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12">
+
+        <TextView
+            android:id="@+id/tvAppHeader"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:paddingRight="@dimen/dp_40"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/dp_20"/>
+
+        <ImageView
+            android:id="@+id/ivAdd"
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:layout_gravity="right"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="invisible"/>
+
+
+    </FrameLayout>
+
+</android.support.v7.widget.Toolbar>

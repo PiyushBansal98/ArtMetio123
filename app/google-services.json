@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1068396193496",
+    "firebase_url": "https://artmetio-199719.firebaseio.com",
+    "project_id": "artmetio-199719",
+    "storage_bucket": "artmetio-199719.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068396193496:android:5c0521e01e75aaa8",
+        "android_client_info": {
+          "package_name": "prateek.artmetio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068396193496-6ckbmmu63s16s24c6t473cc75rglvf1q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "prateek.artmetio",
+            "certificate_hash": "314bc4e620aac720403f854da70f92fc2a7f3b7f"
+          }
+        },
+        {
+          "client_id": "1068396193496-2io500lqmg92hemm93aukj2khrn4dvqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApemlx6Ix3KfUy1OeUi-CMXG9XMo9B5G4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068396193496-2io500lqmg92hemm93aukj2khrn4dvqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

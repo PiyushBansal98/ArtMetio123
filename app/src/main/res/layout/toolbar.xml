@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/button_color">
+
+        <TextView
+            android:id="@+id/tvDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:padding="@dimen/dp_5"
+            android:visibility="gone"
+            android:textSize="@dimen/text_size_12"
+            android:text="@string/done"/>
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:contentDescription="@string/back"
+            android:gravity="center"
+            android:src="@mipmap/back"
+            android:padding="@dimen/dp_5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_14"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivHeader"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:contentDescription="@string/header"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25" />
+
+        <ImageView
+            android:id="@+id/ivRight"
+            android:visibility="invisible"
+            android:contentDescription="@string/right_icon"
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:padding="@dimen/dp_5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

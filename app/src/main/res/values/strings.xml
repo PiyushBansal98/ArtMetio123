@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- navigation drawer item labels  -->
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+
+    <string name="app_name">ArtMetio</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="person_name">Name</string>
+    <string name="profile_icon">profile icon</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="done">Done</string>
+    <string name="back">back</string>
+    <string name="header">Header</string>
+    <string name="right_icon">right</string>
+    <string name="exit_from_app">Are you sure want to exit from the app?</string>
+    <string name="tcarrow">right_arrow</string>
+    <string name="pparrow">rightarrow</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="header_app_settings">App Settings</string>
+    <string name="are_you_satisfied_with_app">Are you satisfied with the app?</string>
+    <string name="satisfied">Satisfied</string>
+    <string name="unsatisfied">Unsatisfied</string>
+    <string name="rate_app">Rate This App</string>
+    <string name="submit">Submit</string>
+    <string name="header_rate_us">Rate Us</string>
+    <string name="choose">Choose</string>
+    <string name="or">OR</string>
+    <string name="enter_price">Enter Price</string>
+    <string name="upload">Upload</string>
+    <string name="header_admin">Admin Panel</string>
+    <string name="email">Email</string>
+    <string name="sign_up_underline"><u>Sign Up</u></string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="header_sign_up">SignUp</string>
+
+    <string name="facebook_app_id">422928221499239</string>
+    <string name="fb_login_protocol_scheme">fb422928221499239</string>
+    <string name="buy">Buy/Purchase</string>
+    <string name="header_item_details">Item Details</string>
+    <string name="header_invoice">Invoice</string>
+    <string name="cust_detail">Customer Details</string>
+    <string name="please_visit_again">Please Visit Again.</string>
+    <string name="thankyou_for_shopping_with_us">Thankyou for Shopping with Us!</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="name">Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="gst">gst</string>
+    <string name="total">Total</string>
+    <string name="please_check">Please check your intenet connection!</string>
+    <string name="gst_18">GST@ 18%</string>
+    <string name="terms">Your access to and use of the Service is conditioned on your acceptance of and compliance with
+                                        these Terms. These Terms apply to all visitors, users and others who access or use the Service.
+                                        By accessing or using the Service you agree to be bound by these Terms. If you disagree
+                                        with any part of the terms then you may not access the Service.</string>
+    <string name="privacy"> This page informs you of our policies regarding the collection, use and disclosure of
+Personal Information we receive from users of the Site.We use your Personal Information only for providing and improving the Site. By using the Site, you
+agree to the collection and use of information in accordance with this policy.While using our Site, we may ask you to provide us with certain personally identifiable information
+that can be used to contact or identify you. Personally identifiable information may include, but is not
+limited to your name ("Personal Information").</string>
+    <string name="signup_as_admin">SignUp As Admin</string>
+    <string name="signup_as_user">SignUp As User</string>
+    <string name="header_sign_up_user">User SignUp</string>
+    <string name="header_sign_up_admin">Admin SignUp</string>
+    <string name="header_add_item">Add Items</string>
+    <string name="item">Item Buyed</string>
+
+
+</resources>

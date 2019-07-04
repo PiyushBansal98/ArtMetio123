@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AddItemsActivity">
+
+
+    <include layout="@layout/toolbar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="@color/view_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_10">
+
+        <ImageView
+            android:id="@+id/ivAdmin"
+            android:layout_width="@dimen/dp_200"
+            android:layout_height="@dimen/dp_200"
+            android:src="@mipmap/pic"/>
+
+        <TextView
+            android:id="@+id/tvChoose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_add_box"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_14"
+            android:paddingTop="@dimen/dp_10"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_50"
+            android:layout_marginRight="@dimen/dp_50"
+            android:text="@string/choose"
+            android:textColor="@color/yellow" />
+
+        <EditText
+            android:id="@+id/etAdminPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_price"
+            android:ellipsize="end"
+            android:inputType="number"
+            android:maxLength="8"
+            android:singleLine="true"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_50"
+            android:layout_marginRight="@dimen/dp_50"/>
+
+        <TextView
+            android:id="@+id/tvUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_add_box"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_14"
+            android:paddingTop="@dimen/dp_10"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_50"
+            android:layout_marginRight="@dimen/dp_50"
+            android:text="@string/upload"
+            android:textColor="@color/yellow" />
+
+    </LinearLayout>
+
+</LinearLayout>

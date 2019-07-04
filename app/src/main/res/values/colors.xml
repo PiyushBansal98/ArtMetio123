@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="view_color">#424242</color>
+    <color name="blue">#2181F7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_grey">#979797</color>
+    <color name="yellow">#f2fe71</color>
+    <color name="app_button_color">#00E647</color>
+    <color name="button_color">#aae4de</color>
+    <color name="aqua">#0BD2FF</color>
+    <color name="dark_aqua">#009BA3</color>
+</resources>
